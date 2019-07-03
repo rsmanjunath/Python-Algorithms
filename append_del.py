@@ -1,4 +1,4 @@
-"""Append and Delete Hackerrank
+"""Append and Delete 
 You have a string, s, of lowercase English alphabetic letters. You can perform two types of operations on s:
 
 Append a lowercase English alphabetic letter to the end of the string.
