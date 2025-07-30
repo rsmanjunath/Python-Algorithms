@@ -1,3 +1,21 @@
+"""
+Question: Prime Number Check
+
+Write a program to check if a given number is a prime number.
+
+Input:
+- An integer `n` representing the number to check.
+
+Output:
+- A boolean value indicating whether the number is prime or not.
+
+Example:
+Input: n = 7
+Output: True
+Explanation:
+7 is a prime number because it is only divisible by 1 and itself.
+"""
+
 """start = 11
 end = 27
 

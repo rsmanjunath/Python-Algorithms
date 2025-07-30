@@ -1,3 +1,21 @@
+"""
+Question: Maximum Product Subarray
+
+Write a program to find the maximum product of a contiguous subarray in a given array.
+
+Input:
+- A list `nums` of integers representing the array.
+
+Output:
+- An integer representing the maximum product of a contiguous subarray.
+
+Example:
+Input: nums = [2, 3, -2, 4]
+Output: 6
+Explanation:
+The subarray [2, 3] has the maximum product of 6.
+"""
+
 arr = [[1,2,3],[4,5,6],[7,8,9]]
 m = 3
 n = 3

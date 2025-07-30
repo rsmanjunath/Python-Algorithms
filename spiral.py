@@ -1,3 +1,21 @@
+"""
+Question: Spiral Matrix
+
+Write a program to print the elements of a 2D matrix in spiral order.
+
+Input:
+- A 2D list `matrix` representing the matrix.
+
+Output:
+- A list of integers representing the elements in spiral order.
+
+Example:
+Input: matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
+Explanation:
+The elements are traversed in a spiral order starting from the top-left corner.
+"""
+
 def spiral_traversal(matrix):
     res = []
     if len(matrix) == 0:

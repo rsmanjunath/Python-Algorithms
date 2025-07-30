@@ -1,3 +1,21 @@
+"""
+Question: Total Path Sum
+
+Write a program to calculate the total sum of all paths from the root to the leaves in a binary tree.
+
+Input:
+- A binary tree represented as a nested list or nodes.
+
+Output:
+- An integer representing the total sum of all paths.
+
+Example:
+Input: tree = [5, [3, [2], [4]], [8, [7], [9]]]
+Output: 45
+Explanation:
+The paths are 5 → 3 → 2, 5 → 3 → 4, 5 → 8 → 7, and 5 → 8 → 9. The total sum is 45.
+"""
+
 def numberOfPaths(m, n): 
     # Create a 2D table to store 
     # results of subproblems 
@@ -24,5 +42,4 @@ def numberOfPaths(m, n):
 # Driver program to test above function  
 m = 3
 n = 3
-print( numberOfPaths(m, n)) 
-  
+print( numberOfPaths(m, n))

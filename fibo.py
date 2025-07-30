@@ -1,4 +1,22 @@
-"""def Fibonacci(n):
+"""
+Question: Fibonacci Sequence
+
+Write a program to generate the Fibonacci sequence up to a given number `n`.
+
+Input:
+- An integer `n` representing the number of terms in the Fibonacci sequence.
+
+Output:
+- A list of integers representing the Fibonacci sequence.
+
+Example:
+Input: n = 5
+Output: [0, 1, 1, 2, 3]
+Explanation:
+The first 5 terms of the Fibonacci sequence are 0, 1, 1, 2, 3.
+"""
+
+def Fibonacci(n):
     if n<0:
         print("Incorrect input")
     # First Fibonacci number is 0
@@ -33,8 +51,7 @@ for i in range(1,11):
      if (isFibonacci(i) == True):
          print(i,"is a Fibonacci Number")
      else:
-         print(i,"is a not Fibonacci Number ")"""
-
+         print(i,"is a not Fibonacci Number ")
 
 arr = [1,2,3,4,5]
 N = [5]

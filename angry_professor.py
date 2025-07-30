@@ -1,4 +1,21 @@
-"""A Discrete Mathematics professor has a class of students. Frustrated with their lack of discipline, he decides to cancel class if fewer than some number of students are present when class starts. Arrival times go from on time () to arrived late ().
+"""Question: Angry Professor
+
+A professor decides to cancel class if fewer than a certain number of students are present on time. Write a program to determine if the class is canceled.
+
+Input:
+- An integer `k` representing the threshold number of students.
+- A list `a` of integers representing the arrival times of students (<= 0 means on time).
+
+Output:
+- "YES" if the class is canceled, "NO" otherwise.
+
+Example:
+Input: k = 3, a = [-1, -3, 4, 2]
+Output: YES
+Explanation:
+Only 2 students are on time, which is less than the threshold of 3. Hence, the class is canceled.
+
+A Discrete Mathematics professor has a class of students. Frustrated with their lack of discipline, he decides to cancel class if fewer than some number of students are present when class starts. Arrival times go from on time () to arrived late ().
 
 Given the arrival time of each student and a threshhold number of attendees, determine if the class is canceled.
 

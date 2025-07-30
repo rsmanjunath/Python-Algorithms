@@ -1,3 +1,21 @@
+"""
+Question: String Compression
+
+Write a program to compress a string such that consecutive repeated characters are replaced with the character followed by the count of repetitions.
+
+Input:
+- A string `string` consisting of lowercase English letters.
+
+Output:
+- A compressed string where repeated characters are represented as `character + count`.
+
+Example:
+Input: string = "aabbaaccaad"
+Output: "a2b2a2c2a2d1"
+Explanation:
+The string "aabbaaccaad" is compressed to "a2b2a2c2a2d1" by replacing consecutive repeated characters with their counts.
+"""
+
 def compress(string):
 
     res = ""

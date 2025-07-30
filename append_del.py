@@ -1,31 +1,21 @@
-"""Append and Delete 
-You have a string, s, of lowercase English alphabetic letters. You can perform two types of operations on s:
+"""Question: Append and Delete
 
-Append a lowercase English alphabetic letter to the end of the string.
-Delete the last character in the string. Performing this operation on an empty string results in an empty string.
-Given an integer, k, and two strings, s and t, determine whether or not you can convert s to t by performing exactly kof the above operations on s. If it’s possible, print Yes; otherwise, print No.
+Write a program to determine if you can convert string `s` to string `t` by performing exactly `k` operations (append or delete).
 
-Input Format
+Input:
+- A string `s` representing the initial string.
+- A string `t` representing the target string.
+- An integer `k` representing the number of operations allowed.
 
+Output:
+- "Yes" if the conversion is possible, "No" otherwise.
 
-The first line contains a string, s, denoting the initial string.
-The second line contains a string, t, denoting the desired final string. The third line contains an integer, k, denoting the desired number of operations.
-
-Constraints
-1<=|s|<=100 1<=|t|<=100 1<=k<=100 s and t consist of lowercase English alphabetic letters. Output Format Print Yes if you can obtain string by performing exactly operations on ; otherwise, print No. Sample Input 0
-
-hackerhappy
-hackerrank
-9
-Sample Output 0
-
-Yes
-Explanation 0
-
-We perform delete operations to reduce string s to hacker. Next, we perform append operations (i.e., r, a, n, and k), to get hackerrank. Because we were able to convert s to t by performing exactly k=9 operations, we print Yes."""
-
-
-
+Example:
+Input: s = "hackerhappy", t = "hackerrank", k = 9
+Output: Yes
+Explanation:
+Delete 3 characters from "hackerhappy" to get "hacker" and append 4 characters to get "hackerrank". Total operations = 9.
+"""
 
 s = "hackerhappy"
 t = "hackerrank"

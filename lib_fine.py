@@ -1,5 +1,21 @@
+"""
+Question: Library Fine
 
+Write a program to calculate the fine for returning a library book late. The fine is calculated based on the number of days, months, and years late.
 
+Input:
+- Three integers `d1`, `m1`, `y1` representing the return date.
+- Three integers `d2`, `m2`, `y2` representing the due date.
+
+Output:
+- An integer representing the fine.
+
+Example:
+Input: d1 = 9, m1 = 6, y1 = 2015, d2 = 6, m2 = 6, y2 = 2015
+Output: 45
+Explanation:
+The book is 3 days late, so the fine is 3 * 15 = 45.
+"""
 
 # Complete the libraryFine function below.
 def libraryFine(d1, m1, y1, d2, m2, y2):

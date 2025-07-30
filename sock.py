@@ -1,4 +1,21 @@
+"""
+Question: Sock Merchant
 
+Write a program to find the number of matching pairs of socks in a pile.
+
+Input:
+- An integer `n` representing the number of socks.
+- A list `ar` of integers representing the colors of the socks.
+
+Output:
+- An integer representing the number of matching pairs of socks.
+
+Example:
+Input: n = 7, ar = [1, 2, 1, 2, 1, 3, 2]
+Output: 2
+Explanation:
+There are two pairs of socks: one pair of color 1 and one pair of color 2.
+"""
 
 def sockMerchant(n, ar):
     z = list()
